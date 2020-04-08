@@ -25,8 +25,8 @@ function handler(e) {
   let xoffset = mx - ww;
   let yoffset = my - wh;
 
-  if (distance > outerCircleRad) {
-    let scaleDown = outerCircleRad / distance;
+  if (distance > outerCircleRad - innerCircleRad) {
+    let scaleDown = (outerCircleRad - innerCircleRad) / distance;
     xoffset *= scaleDown;
     yoffset *= scaleDown;
   }
