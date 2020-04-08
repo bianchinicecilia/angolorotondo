@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+}
+
+/*FONTS*/
+
+@font-face {
+  font-family: Fivo-Regular;
+  src: url('FivoSansModern-Regular.otf');
+}
+
+@font-face {
+  font-family: Fivo-Medium;
+  src: url('FivoSansModern-Medium.otf');
+}
+
+@font-face {
+  font-family: Wremena-Bold;
+  src: url('Wremena Bold.otf');
+}
+
+.header {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 18px 25px;
+}
+
+.header-left {
+  width: 100%;
+}
+
+.header-right {
+  margin-right: -10px;
+}
+
+img.animated-gif{
+  width: 100px;
+  height: auto;
+}
+
+.logo {
+  font-size: 20px;
+  font-family: Fivo-Regular;
+}
+
+.copy {
+  font-size: 15px;
+  font-family: Fivo-Regular;
+  line-height: 1.5;
+}
+
+.title {
+  font-size: 20px;
+  font-family: Wremena-Bold;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.container {
+  background-color: #FFEEE6;
+  height: 93vh;
+  -webkit-box-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+/*UTERUS*/
+
+.uterus {
+  background: #456BD9;
+  border-radius: 50%;
+  border: 7px solid black;
+  background-color: white;
+  height: 560px;
+  position: relative;
+  width: 560px;
+}
+
+.uterus-content {
+  -webkit-hyphens: none;
+      -ms-hyphens: none;
+          hyphens: none;
+  margin: 5em;
+  text-align: center;
+}
+
+
+
+@supports (shape-outside: circle(50%)) {
+  .uterus-content {
+    height: 100%;
+    margin: 0;
+    padding: 5px;
+  }
+
+  .uterus::before,
+  .uterus-content::before {
+    content: "";
+    height: 100%;
+    width: 50%;
+  }
+
+  .uterus::before {
+    float: left;
+    shape-outside: polygon(
+      0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%,
+      5% 65.6%, 10% 71.8%, 20% 80%, 40% 90%, 60% 96%, 100% 100%, 0 100%
+    );
+  }
+
+  .uterus-content::before {
+    float: right;
+    shape-outside: polygon(
+      100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%,
+      95% 65.6%, 90% 71.8%, 80% 80%, 60% 90%, 40% 96%, 0 100%, 100% 100%
+    );
+  }
+}
+
+
+/* BABY */
+
+.circle {
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /*border: 4px solid black;*/
+  background-color: #DBF0E3;
+  margin: -39px 0 -39px;
+  will-change: transform;
+}
+
+/* FOOTER */
+
+.footer {
+  overflow: hidden;
+  background-color: #F7F7F7;
+  width: 100%;
+  height: 7vh;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 18px 25px;
+}
+
+.footerItem {
+  font-family: Fivo-Regular;
+  font-size: 16px;
+  color: black;
+}
+
+.colloquio {
+  margin-right: 10px;
+}
+
+.prenota {
+  margin-left: 10px;
+}
+
+.social {
+  margin-right: 10px;
+}
+
+.footerLeft {
+  width: 100%;
+}
+
+.footerCenter {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+  justify-content: center;
+}
+
+.footerRight {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+  text-decoration: line-through;
+}
+
+a:active {
+  color: black;
+  text-decoration: none;
+}
