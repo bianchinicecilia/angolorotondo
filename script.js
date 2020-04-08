@@ -31,7 +31,7 @@ function handler(e) {
     yoffset *= scaleDown;
   }
   //document.querySelector('#inner-circle').style.transform = 'translate(' + (xoffset - innerCircleRad) + 'px, ' + (yoffset - innerCircleRad) + 'px)';
-  gsap.to(".circle", {duration: 0.25, x: (xoffset - innerCircleRad), y: (yoffset - innerCircleRad)});
+  gsap.to(".circle", {duration: 0.25, x: xoffset, y: yoffset});
 }
 
 /* MODAL */

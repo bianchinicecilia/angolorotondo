@@ -60,8 +60,7 @@ img.animated-gif{
 }
 
 .logo {
-  font-size: 20px;
-  font-family: Fivo-Regular;
+  max-width: 200px;
 }
 
 .copy {
@@ -76,15 +75,37 @@ img.animated-gif{
   line-height: 1.5;
 }
 
-.fontawesome {
-  /*margin-top: 18px;*/
-}
-
 .title {
   font-size: 22px;
   font-family: Wremena-Bold;
   margin-bottom: 20px;
   line-height: 1.3;
+}
+
+@media (max-width: 600px) {
+
+  body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .copy {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  .title {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+
+  .fontawesome {
+    margin-top: 5px;
+  }
+
+  .logo {
+    margin-top: 35px;
+  }
 }
 
 .container {
@@ -101,7 +122,6 @@ img.animated-gif{
 /*UTERUS*/
 
 .uterus {
-  background: #456BD9;
   border-radius: 50%;
   border: 5px solid black;
   background-color: white;
@@ -110,7 +130,39 @@ img.animated-gif{
   width: 560px;
 }
 
-.uterus-content {
+.bigCircle {
+  border-radius: 50%;
+  height: 550px;
+  position: relative;
+  width: 550px;
+  top: 4px;
+}
+
+@media (max-width: 600px) {
+
+  .container {
+    height: 100%;
+    padding: 80px 0;
+  }
+
+  .uterus {
+    margin-top: 40px;
+    height: 480px;
+    width: 480px;
+  }
+
+  .bigCircle {
+    height: 470px;
+    width: 470px;
+  }
+
+  .uterus {
+    border: 5px solid black;
+  }
+
+}
+
+.bigCircle-content {
   -webkit-hyphens: none;
       -ms-hyphens: none;
           hyphens: none;
@@ -121,20 +173,20 @@ img.animated-gif{
 
 
 @supports (shape-outside: circle(50%)) {
-  .uterus-content {
+  .bigCircle-content {
     height: 100%;
     margin: 0;
     padding: 5px;
   }
 
-  .uterus::before,
-  .uterus-content::before {
+  .bigCircle::before,
+  .bigCircle-content::before {
     content: "";
     height: 100%;
     width: 50%;
   }
 
-  .uterus::before {
+  .bigCircle::before {
     float: left;
     shape-outside: polygon(
       0 0, 100% 0, 60% 4%, 40% 10%, 20% 20%, 10% 28.2%, 5% 34.4%, 0 50%,
@@ -142,7 +194,7 @@ img.animated-gif{
     );
   }
 
-  .uterus-content::before {
+  .bigCircle-content::before {
     float: right;
     shape-outside: polygon(
       100% 0, 0 0, 40% 4%, 60% 10%, 80% 20%, 90% 28.2%, 95% 34.4%, 100% 50%,
@@ -157,14 +209,14 @@ img.animated-gif{
 .circle {
   pointer-events: none;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  /*top: 50%;
+  left: 50%;*/
   width: 100px;
   height: 100px;
   border-radius: 50%;
   /*border: 4px solid black;*/
   background-color: #DBF0E3;
-  margin: -39px 0 -39px;
+  /*margin: -39px 0 -39px;*/
   will-change: transform;
 }
 
@@ -232,8 +284,8 @@ a:visited {
 
 a:hover {
   color: black;
-  text-decoration: none;
-  text-decoration: line-through;
+  text-decoration-line: line-through;
+  text-decoration-color: #DBF0E3;
 }
 
 a:active {
@@ -261,7 +313,8 @@ a:active {
 }
 
 button:hover{
-  text-decoration: line-through;
+  text-decoration-line: line-through;
+  text-decoration-color: #DBF0E3;
 }
 
 .modal {
@@ -279,6 +332,7 @@ button:hover{
 
 /* Modal Content */
 .modal-content {
+  overflow: hidden;
   background-color: #fefefe;
   margin-left: 0;
   padding: 20px;
@@ -301,4 +355,52 @@ button:hover{
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.portrait {
+  top: -5px;
+}
+
+.img {
+  width: 100%;
+  margin-top: -7px;
+}
+
+@media (max-width: 600px) {
+
+  .footer {
+    overflow: scroll;
+    flex-direction: column;
+  }
+
+  .footerLeft {
+    float: left;
+  }
+
+  .footerCenter {
+    float: left;
+  }
+
+  .footerRight {
+    float: left;
+
+  }
+
+  .footerItem {
+    float: left;
+  }
+
+  #myModal {
+    max-width: 80%;
+  }
+
+  .modal-content {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .img {
+    margin-top: 10px;
+  }
 }
