@@ -340,7 +340,7 @@ button:hover{
   }
 
   .title {
-    font-size: 10.5px;
+    font-size: 3px;
     line-height: 1.15;
     margin-top: -13px;
   }
@@ -416,6 +416,7 @@ button:hover{
   .bigCircle {
     height: inherit;
     width: inherit;
+    margin-left: 5px;
   }
 
   .bigCircle-content {
