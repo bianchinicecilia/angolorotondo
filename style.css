@@ -92,7 +92,7 @@ img.animated-gif{
 }
 
 .container {
-  background-color: #FFDBCE;
+  background-color: #FFCDBB;
   height: 93vh;
   -webkit-box-align: center;
           align-items: center;
@@ -544,7 +544,7 @@ button:hover{
 
 @media (prefers-color-scheme: dark) {
   .container {
-    background-color: #FFDBCE;
+    background-color: #FFCDBB;
   }
 
   .circle {
