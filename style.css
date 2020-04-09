@@ -524,13 +524,13 @@ button:hover{
     height: 100vh;
   }
 
-  .img {
+  /*.img {
     margin-top: 36px;
     margin-left: -31px;
     -ms-transform: rotate(90deg); /* IE 9 */
-    transform: rotate(90deg); /* Standard syntax */
-    /*display: none;*/
-  }
+    /*transform: rotate(90deg);  Standard syntax */
+    /*display: none;
+  }*/
 }
 
 @media (prefers-color-scheme: dark) {
