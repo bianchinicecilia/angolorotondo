@@ -2,8 +2,8 @@ let innerCircleRad, outerCircleRad, ww, wh;
 
 window.addEventListener('resize', getElementSizes);
 function getElementSizes() {
-  let innerCircle = document.querySelector('#inner-circle');
-  let outerCircle = document.querySelector('#outer-circle');
+  let innerCircle = document.querySelector('.circle');
+  let outerCircle = document.querySelector('.uterus');
 
   innerCircleRad = innerCircle.clientHeight / 2;
   outerCircleRad = outerCircle.clientHeight / 2;
@@ -13,7 +13,7 @@ function getElementSizes() {
 getElementSizes();
 
 document.addEventListener('mousemove', handler);
-document.querySelector('#inner-circle').addEventListener('touchstart', function() {
+document.querySelector('.circle').addEventListener('touchstart', function() {
   document.addEventListener('touchmove', handler);
 });
 document.addEventListener('touchend', function() {
@@ -39,7 +39,7 @@ function handler(e) {
     yoffset *= scaleDown;
   }
   //document.querySelector('#inner-circle').style.transform = 'translate(' + (xoffset - innerCircleRad) + 'px, ' + (yoffset - innerCircleRad) + 'px)';
-  gsap.to('#inner-circle', {duration: 0.25, x: (xoffset), y: (yoffset)});
+  gsap.to('.circle', {duration: 0.25, x: (xoffset), y: (yoffset)});
 }
 
 /* MODAL */
