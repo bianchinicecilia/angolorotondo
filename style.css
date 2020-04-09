@@ -425,7 +425,8 @@ button:hover{
   }
 
   .img {
-    margin-top: 10px;
+    margin-top: 36px;
+    margin-left: -31px;
     -ms-transform: rotate(90deg); /* IE 9 */
     transform: rotate(90deg); /* Standard syntax */
   }
