@@ -361,10 +361,12 @@ button:hover{
   .footer {
     overflow: scroll;
     flex-direction: column;
+    height: auto;
   }
 
   .footerLeft {
-    float: left;
+    display: flex;
+    justify-content: center;
   }
 
   .footerCenter {
@@ -372,7 +374,8 @@ button:hover{
   }
 
   .footerRight {
-    float: left;
+    display: flex;
+    justify-content: center;
 
   }
 
