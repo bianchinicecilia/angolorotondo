@@ -45,7 +45,6 @@ body {
   display: flex;
   flex-direction: row;
   padding: 18px 25px;
-  z-index: 99;
 }
 
 .header-left {
@@ -336,12 +335,12 @@ button:hover{
   }
 
   .copy {
-    font-size: 12px;
-    line-height: 1.2;
+    font-size: 10.5px;
+    line-height: 1.1;
   }
 
   .title {
-    font-size: 19px;
+    font-size: 15px;
     line-height: 1.1;
   }
 
@@ -373,7 +372,8 @@ button:hover{
   }
 
   .logo {
-    margin-top: 35px;
+    margin-top: 15px;
+    margin-left: 15px;
   }
 
 
@@ -398,14 +398,15 @@ button:hover{
     height: 100%;
     margin-left: auto;
     margin-right:auto;
+    margin-top: 5px;
 
   }
 
   .uterus {
     display: block;
     width: auto;
-    height: auto;
-    max-width: inherit;
+    height: 22.5em;
+    max-width: 22em;
     border: 5px solid black;
     overflow: hidden;
     margin-bottom: 20px;
@@ -420,6 +421,8 @@ button:hover{
   .bigCircle-content {
     height: inherit;
     width: inherit;
+    margin-top: -5px;
+    margin-left: -5px;
   }
 
   .footer {
@@ -428,30 +431,51 @@ button:hover{
     overflow: scroll;
     flex-direction: column;
     height: auto;
+    padding: 35px;
   }
 
   .footerLeft {
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 
   .footerCenter {
-    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .colloquio {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .prenota {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
   }
 
   .footerRight {
     display: flex;
     justify-content: center;
-    margin-bottom: 15px;
   }
 
-  .social {
-    margin-right: 20px;
+  .ig {
+    display: flex;
+    justify-content: start;
   }
 
-  .footerItem {
-    float: left;
+  .fb {
+    display: flex;
+    justify-content: center;
+  }
+
+  .medium {
+    display: flex;
+    justify-content: end;
   }
 
   #myModal {
