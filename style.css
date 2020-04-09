@@ -83,6 +83,14 @@ img.animated-gif{
   line-height: 1.3;
 }
 
+::-moz-selection { /* Code for Firefox */
+  background: #DBF0E3;
+}
+
+::selection {
+  background: #DBF0E3;
+}
+
 .container {
   background-color: #FFEEE6;
   height: 93vh;
