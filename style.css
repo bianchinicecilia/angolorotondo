@@ -371,9 +371,9 @@ button:hover{
 
   .header-right {
     display: flex;
-    justify-content: center;
-    width: auto;
     margin-top: 15px;
+    align-items: center;
+    margin: auto;
   }
 
   .logo {
