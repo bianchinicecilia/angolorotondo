@@ -13,12 +13,12 @@ function getElementSizes() {
 getElementSizes();
 
 document.addEventListener('mousemove', handler);
-document.addEventListener('touchmove', handler);
+/*document.addEventListener('touchmove', handler);*/
 function handler(e) {
   e = e || window.event;
-  if('touches' in e) {
+  /*if('touches' in e) {
     e = e.touches[0];
-  }
+  }*/
   let mousex = e.pageX;
   let mousey = e.pageY;
 
