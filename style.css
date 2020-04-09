@@ -84,11 +84,13 @@ img.animated-gif{
 }
 
 ::-moz-selection { /* Code for Firefox */
-  background: #DBF0E3;
+  color: red;
+  background: yellow;
 }
 
 ::selection {
-  background: #DBF0E3;
+  color: red;
+  background: yellow;
 }
 
 .container {
