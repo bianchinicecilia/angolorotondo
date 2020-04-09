@@ -378,10 +378,13 @@ button:hover{
   .logo {
     margin-top: 10px;
     margin-left: 20px;
+    max-width: 200px;
+    height: auto;
   }
 
   img.animated-gif{
-    width: 100px;
+    max-width: 100px;
+    height: auto;
   }
 
   .container {
