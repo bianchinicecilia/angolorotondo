@@ -377,16 +377,21 @@ button:hover{
   .footerLeft {
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
   }
 
   .footerCenter {
-    float: left;
+    margin-bottom: 15px;
   }
 
   .footerRight {
     display: flex;
     justify-content: center;
+    margin-bottom: 15px;
+  }
 
+  .social {
+    margin-right: 20px;
   }
 
   .footerItem {
