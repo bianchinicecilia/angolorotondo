@@ -82,32 +82,6 @@ img.animated-gif{
   line-height: 1.3;
 }
 
-@media (max-width: 600px) {
-
-  body {
-    overflow-x: hidden;
-    overflow-y: scroll;
-  }
-
-  .copy {
-    font-size: 14px;
-    line-height: 1.2;
-  }
-
-  .title {
-    font-size: 18px;
-    line-height: 1.1;
-  }
-
-  .fontawesome {
-    margin-top: 5px;
-  }
-
-  .logo {
-    margin-top: 35px;
-  }
-}
-
 .container {
   background-color: #FFEEE6;
   height: 93vh;
@@ -136,30 +110,6 @@ img.animated-gif{
   position: relative;
   width: 550px;
   top: 4px;
-}
-
-@media (max-width: 600px) {
-
-  .container {
-    height: 100%;
-    padding: 80px 0;
-  }
-
-  .uterus {
-    margin-top: 40px;
-    height: 480px;
-    width: 480px;
-  }
-
-  .bigCircle {
-    height: 470px;
-    width: 470px;
-  }
-
-  .uterus {
-    border: 5px solid black;
-  }
-
 }
 
 .bigCircle-content {
@@ -367,6 +317,49 @@ button:hover{
 }
 
 @media (max-width: 600px) {
+
+  body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .copy {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+
+  .title {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+
+  .fontawesome {
+    margin-top: 5px;
+  }
+
+  .logo {
+    margin-top: 35px;
+  }
+
+  .container {
+    height: 100%;
+    padding: 80px 0;
+  }
+
+  .uterus {
+    margin-top: 40px;
+    height: 480px;
+    width: 480px;
+  }
+
+  .bigCircle {
+    height: 470px;
+    width: 470px;
+  }
+
+  .uterus {
+    border: 5px solid black;
+  }
 
   .footer {
     overflow: scroll;
