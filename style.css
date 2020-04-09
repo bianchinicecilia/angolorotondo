@@ -512,7 +512,7 @@ button:hover{
   }
 }
 
-/*@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   .container {
     background-color: #FFEEE6;
   }
@@ -565,4 +565,4 @@ button:hover{
     color: #000;
   }
 
-}*/
+}
