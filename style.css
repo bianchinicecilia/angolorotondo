@@ -324,12 +324,12 @@ button:hover{
   }
 
   .copy {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.2;
   }
 
   .title {
-    font-size: 18px;
+    font-size: 19px;
     line-height: 1.1;
   }
 
@@ -348,17 +348,14 @@ button:hover{
 
   .uterus {
     margin-top: 40px;
-    height: 480px;
-    width: 480px;
+    height: 440px;
+    width: 440px;
+    border: 5px solid black;
   }
 
   .bigCircle {
-    height: 470px;
-    width: 470px;
-  }
-
-  .uterus {
-    border: 5px solid black;
+    height: 410px;
+    width: 410px;
   }
 
   .footer {
