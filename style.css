@@ -357,8 +357,6 @@ button:hover{
    display: flex;
    flex-direction: column;
    padding: 15px 25px;
-   align-items: flex-start;
-   margin: auto;
   }
 
   .header :nth-child(1) { order: 2; }
@@ -367,7 +365,8 @@ button:hover{
   .header-left {
     display: flex;
     width: auto;
-    justify-content: center;
+    align-items: center;
+    margin: auto;
   }
 
   .header-right {
