@@ -418,11 +418,3 @@ button:hover{
     margin-top: 10px;
   }
 }
-
-/*@media screen and (prefers-color-scheme: dark) {
-
-  .container {
-    background-color: #00162A;
-  }
-
-}
