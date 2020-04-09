@@ -352,9 +352,12 @@ button:hover{
 
   .header {
    background-color:#FFEEE6;
-    position: relative;
-    display: block;
+   position: relative;
+   display: block;
   }
+
+  .header :nth-child(1) { order: 2; }
+  .header :nth-child(2) { order: 1; }
 
   .header-left {
     display: flex;
