@@ -455,6 +455,11 @@ button:hover{
     width: inherit;
   }
 
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+
   .footer {
     position: relative;
     display: block;
