@@ -390,7 +390,7 @@ button:hover{
 
   .logo {
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 12px;
     max-width: 200px;
     height: auto;
   }
@@ -421,7 +421,7 @@ button:hover{
     height: 100%;
     margin-left: auto;
     margin-right:auto;
-    margin-top: 10px;
+    margin-top: 5px;
 
   }
 
@@ -432,7 +432,7 @@ button:hover{
     max-width: inherit;
     border: 5px solid black;
     overflow: hidden;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 
   }
 
