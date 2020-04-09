@@ -13,7 +13,12 @@ function getElementSizes() {
 getElementSizes();
 
 document.addEventListener('mousemove', handler);
-document.addEventListener('touchmove', handler);
+document.querySelector('.circle').addEventListener('touchstart', function() {
+  document.addEventListener('touchmove', handler);
+});
+document.querySelector('.circle').addEventListener('touchend', function() {
+  document.removeEventListener('touchmove', handler);
+});
 
 function handler(e) {
   e = e || window.event;
