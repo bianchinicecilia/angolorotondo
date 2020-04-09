@@ -2,8 +2,8 @@ let innerCircleRad, outerCircleRad, ww, wh;
 
 window.addEventListener('resize', getElementSizes);
 function getElementSizes() {
-  let innerCircle = document.querySelector('.circle');
-  let outerCircle = document.querySelector('.uterus');
+  let innerCircle = document.querySelector('#inner-circle');
+  let outerCircle = document.querySelector('#outer-circle');
 
   innerCircleRad = innerCircle.clientHeight / 2;
   outerCircleRad = outerCircle.clientHeight / 2;
@@ -13,10 +13,10 @@ function getElementSizes() {
 getElementSizes();
 
 document.addEventListener('mousemove', handler);
-document.querySelector('.circle').addEventListener('touchstart', function() {
+document.querySelector('#inner-circle').addEventListener('touchstart', function() {
   document.addEventListener('touchmove', handler);
 });
-document.querySelector('.circle').addEventListener('touchend', function() {
+document.addEventListener('touchend', function() {
   document.removeEventListener('touchmove', handler);
 });
 
@@ -25,14 +25,13 @@ function handler(e) {
   if('touches' in e) {
     e = e.touches[0];
   }
+  let mousex = e.pageX;
+  let mousey = e.pageY;
 
-  let mx = e.pageX;
-  let my = e.pageY;
+  let distance = Math.hypot(mousex - ww, mousey - wh);
 
-  let distance = Math.hypot(mx - ww, my - wh);
-
-  let xoffset = mx - ww;
-  let yoffset = my - wh;
+  let xoffset = mousex - ww;
+  let yoffset = mousey - wh;
 
   if (distance > outerCircleRad - innerCircleRad) {
     let scaleDown = (outerCircleRad - innerCircleRad) / distance;
@@ -40,7 +39,7 @@ function handler(e) {
     yoffset *= scaleDown;
   }
   //document.querySelector('#inner-circle').style.transform = 'translate(' + (xoffset - innerCircleRad) + 'px, ' + (yoffset - innerCircleRad) + 'px)';
-  gsap.to(".circle", {duration: 0.25, x: xoffset, y: yoffset});
+  gsap.to('#inner-circle', {duration: 0.25, x: (xoffset), y: (yoffset)});
 }
 
 /* MODAL */
