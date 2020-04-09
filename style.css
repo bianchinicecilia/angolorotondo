@@ -347,7 +347,7 @@ button:hover{
   }
 
   .copyModal {
-    font-size: 14.2px;
+    font-size: 14px;
     font-family: Fivo-Regular;
     line-height: 1.2;
   }
@@ -524,13 +524,9 @@ button:hover{
     height: 100vh;
   }
 
-  /*.img {
-    margin-top: 36px;
-    margin-left: -31px;
-    -ms-transform: rotate(90deg); /* IE 9 */
-    /*transform: rotate(90deg);  Standard syntax */
-    /*display: none;
-  }*/
+  .img {
+    margin-top: -3px;
+  }
 }
 
 @media (prefers-color-scheme: dark) {
