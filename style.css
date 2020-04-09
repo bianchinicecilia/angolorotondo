@@ -280,6 +280,16 @@ button:hover{
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.modal::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.modal {
+  -ms-overflow-style: none;
+}
+
 /* Modal Content */
 .modal-content {
   overflow: hidden;
@@ -345,6 +355,16 @@ button:hover{
     display: flex;
     flex-direction: column;
   }
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.container {
+  -ms-overflow-style: none;
+}
 
   .header {
     display: flex;
