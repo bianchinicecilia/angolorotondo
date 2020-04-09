@@ -354,7 +354,9 @@ button:hover{
   .header {
    background-color:#FFEEE6;
    position: relative;
-   display: block;
+   display: flex;
+   flex-direction: column;
+   padding: 15px 25px;
   }
 
   .header :nth-child(1) { order: 2; }
@@ -364,22 +366,23 @@ button:hover{
     display: flex;
     width: auto;
     justify-content: center;
-    align-self: center;
   }
 
   .header-right {
     display: flex;
     justify-content: center;
-    align-self: center;
     width: auto;
     margin-top: 15px;
   }
 
   .logo {
-    margin-top: 15px;
-    margin-left: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
   }
 
+  img.animated-gif{
+    width: 100px;
+  }
 
   .container {
   height: 100%;
@@ -402,6 +405,7 @@ button:hover{
     height: 100%;
     margin-left: auto;
     margin-right:auto;
+    margin-top: 10px;
 
   }
 
