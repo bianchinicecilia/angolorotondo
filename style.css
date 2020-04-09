@@ -404,6 +404,10 @@ button:hover{
     float: left;
   }
 
+  .modal {
+    top: 0;
+  }
+
   #myModal {
     max-width: 80%;
   }
