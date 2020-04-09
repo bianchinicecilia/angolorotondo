@@ -356,7 +356,7 @@ button:hover{
    position: relative;
    display: flex;
    flex-direction: column;
-   padding: 15px 25px;
+   padding: 25px 25px;
   }
 
   .header :nth-child(1) { order: 2; }
@@ -384,7 +384,7 @@ button:hover{
   }
 
   img.animated-gif{
-    max-width: 100px;
+    max-width: 120px;
     height: auto;
   }
 
