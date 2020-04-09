@@ -444,6 +444,7 @@ button:hover{
 
   #myBtn {
     font-size: 18px;
+    font-family: Fivo-Medium;
   }
 
   .footerCenter {
@@ -457,11 +458,13 @@ button:hover{
     display: flex;
     justify-content: center;
     font-size: 18px;
+    font-family: Fivo-Medium;
     margin-right: 0px;
   }
 
   .prenota {
     font-size: 18px;
+    font-family: Fivo-Medium;
     margin-bottom: 40px;
     display: flex;
     justify-content: center;
@@ -475,15 +478,18 @@ button:hover{
 
 
   .fb {
+    font-family: Fivo-Medium;
     font-size: 18px;
     margin-right: 40px;
   }
 
   .ig {
+    font-family: Fivo-Medium;
     font-size: 18px;
   }
 
   .medium {
+    font-family: Fivo-Medium;
     font-size: 18px;
     margin-left: 40px;
   }
@@ -506,7 +512,7 @@ button:hover{
   }
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   .container {
     background-color: #FFEEE6;
   }
@@ -542,16 +548,14 @@ button:hover{
   }
 
   .modal {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
   }
 
-  /* Modal Content */
   .modal-content {
     background-color: #fefefe;
   }
 
-  /* The Close Button */
   .close {
     color: #DBF0E3;
   }
@@ -561,4 +565,4 @@ button:hover{
     color: #000;
   }
 
-}
+}*/
