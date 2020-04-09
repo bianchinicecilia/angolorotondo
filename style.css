@@ -360,6 +360,8 @@ button:hover{
   .container {
     height: 100%;
     padding: 80px 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
   }
 
   .uterus {
