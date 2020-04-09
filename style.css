@@ -363,11 +363,13 @@ button:hover{
     display: flex;
     width: auto;
     justify-content: center;
+    align-self: center;
   }
 
   .header-right {
     display: flex;
     justify-content: center;
+    align-self: center;
     width: auto;
     margin-top: 15px;
   }
