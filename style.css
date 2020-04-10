@@ -50,8 +50,7 @@ body {
   height: auto;
   display: flex;
   flex-direction: row;
-  padding: 1.125em 1.5625em;
-  padding-bottom: 0;
+  padding: 1.125em 1.5625em 0;
 }
 
 .header-left {
