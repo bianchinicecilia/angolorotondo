@@ -70,7 +70,7 @@ img.animated-gif{
 }
 
 .copy {
-  font-size: 0.94em;
+  font-size: 0.85em;
   font-family: Fivo-Regular;
   line-height: 1.5;
 }
@@ -297,6 +297,7 @@ button:hover{
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  z-index: 100;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
