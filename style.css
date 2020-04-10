@@ -364,6 +364,7 @@ button:hover{
 
   .container {
     font-size: 2.75vw;
+    margin-top: 0;
   }
   .header,
   .footer {
@@ -460,7 +461,7 @@ button:hover{
   }
 
   .close {
-    font-size: 2.5em;
+    font-size: 3.5em;
     margin-top: -5px;
     margin-right: 0px;
 }
