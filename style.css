@@ -51,6 +51,7 @@ body {
   display: flex;
   flex-direction: row;
   padding: 1.125em 1.5625em;
+  padding-bottom: 0;
 }
 
 .header-left {
@@ -106,9 +107,8 @@ img.animated-gif{
   -webkit-box-pack: center;
           justify-content: center;
   flex: 1;
-  margin-bottom: 1em;
+  margin-bottom: 10vh;
   overflow: hidden;
-  margin-top: -8.5em;
 }
 
 /*UTERUS*/
