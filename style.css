@@ -56,12 +56,12 @@ body {
 }
 
 img.animated-gif{
-  width: 120px;
+  width: 7.5em;
   height: auto;
 }
 
 .logo {
-  max-width: 200px;
+  max-width: 12.5em;
 }
 
 .copy {
@@ -195,7 +195,7 @@ img.animated-gif{
 
 .footerItem {
   font-family: Fivo-Regular;
-  font-size: 16px;
+  font-size: 1em;
   color: black;
 }
 
@@ -257,7 +257,7 @@ a:active {
 /* The Modal (background) */
 
 #myBtn {
-  font-size: 15px;
+  font-size: 1em;
   font-family: Fivo-Regular;
   border: none;
   background-color: white;
@@ -277,7 +277,7 @@ button:hover{
 }
 
 .copyModal {
-  font-size: 15px;
+  font-size: 0.9375em;
   font-family: Fivo-Regular;
   line-height: 1.5;
 }
@@ -320,7 +320,7 @@ button:hover{
 .close {
   color: #DBF0E3;
   float: right;
-  font-size: 28px;
+  font-size: 1.75em;
   font-weight: bold;
   margin-top: -10px;
 }
@@ -349,19 +349,19 @@ button:hover{
   }
 
   .copy {
-    font-size: 10.5px;
+    font-size: 0.6563em;
     line-height: 1.1;
     margin-top: -2px;
   }
 
   .copyModal {
-    font-size: 14px;
+    font-size: 0.875em;
     font-family: Fivo-Regular;
     line-height: 1.2;
   }
 
   .title {
-    font-size: 13px;
+    font-size: 0.8125em;
     line-height: 1.15;
     margin-top: -13px;
   }
@@ -376,7 +376,7 @@ button:hover{
    position: relative;
    display: flex;
    flex-direction: column;
-   padding: 25px 25px;
+   padding: 30px 25px 25px 25px;
   }
 
   .header :nth-child(1) { order: 2; }
@@ -397,9 +397,9 @@ button:hover{
   }
 
   .logo {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 12px;
-    max-width: 200px;
+    max-width: 250px;
     height: auto;
   }
 
@@ -409,7 +409,7 @@ button:hover{
   }
 
   .container {
-  height: 100%;
+    height: 100%;
 }
 
     /* Hide scrollbar for Chrome, Safari and Opera */
@@ -429,14 +429,14 @@ button:hover{
     height: 100%;
     margin-left: auto;
     margin-right:auto;
-    margin-top: 5px;
+    margin-top: -10px;
 
   }
 
   .uterus {
     display: block;
     width: auto;
-    height: 360px;
+    height: 22.5em;
     max-width: inherit;
     border: 5px solid black;
     overflow: hidden;
@@ -456,8 +456,8 @@ button:hover{
   }
 
   .circle {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
   }
 
   .footer {
@@ -476,7 +476,7 @@ button:hover{
   }
 
   #myBtn {
-    font-size: 18px;
+    font-size: 20px;
     font-family: Fivo-Medium;
   }
 
@@ -490,13 +490,13 @@ button:hover{
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
-    font-size: 18px;
+    font-size: 1.25em;
     font-family: Fivo-Medium;
     margin-right: 0px;
   }
 
   .prenota {
-    font-size: 18px;
+    font-size: 1.25em;
     font-family: Fivo-Medium;
     margin-bottom: 30px;
     display: flex;
@@ -512,18 +512,18 @@ button:hover{
 
   .fb {
     font-family: Fivo-Medium;
-    font-size: 18px;
+    font-size: 1.25em;
     margin-right: 30px;
   }
 
   .ig {
     font-family: Fivo-Medium;
-    font-size: 18px;
+    font-size: 1.25em;
   }
 
   .medium {
     font-family: Fivo-Medium;
-    font-size: 18px;
+    font-size: 1.25em;
     margin-left: 30px;
   }
 
@@ -536,6 +536,12 @@ button:hover{
     width: 100%;
     height: 100vh;
   }
+
+  .close {
+    font-size: 2.5em;
+    margin-top: -17px;
+    margin-right: -5px;
+}
 
   .img {
     margin-top: 7px;
