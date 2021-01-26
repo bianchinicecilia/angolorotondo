@@ -430,12 +430,13 @@ button:hover{
    background-color:#FFCDBB;
    position: relative;
    padding: 0.8em 1.2em;
-   max-height: 4em;
+   height: 100%;
   }
 
   .header-left {
     display: flex;
     margin: auto;
+    max-height: 4em;
   }
 
   .header-right {
