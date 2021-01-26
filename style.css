@@ -366,6 +366,10 @@ button:hover{
     height: 8.25em;
   }
 
+  .uterus {
+    border: 0.35em solid black;
+  }
+
 
   .fontawesome {
     margin-top: 5px;
