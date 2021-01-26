@@ -66,13 +66,13 @@ img.animated-gif{
 }
 
 .logo {
-  max-width: 12.5em;
+  max-width: 8.5em;
 }
 
 .copy {
-  font-size: 15.2px;
+  font-size: 0.95em;
   font-family: Fivo-Regular;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 .heading {
@@ -82,10 +82,9 @@ img.animated-gif{
 }
 
 .title {
-  font-size: 12px;
+  font-size: 2.5em;
   font-family: Wremena-Bold;
   margin-bottom: 20px;
-  margin-bottom: 0.91em;
   line-height: 1.1;
 }
 
@@ -115,24 +114,21 @@ img.animated-gif{
   border-radius: 50%;
   border: 0.3125em solid black;
   background-color: white;
-  height: 35em;
-  width: 35em;
+  height: 31em;
+  width: 31em;
   position: relative;
 }
 
 .bigCircle {
   border-radius: 50%;
-  height: 35em;
+  height: 28em;
   position: relative;
-  width: 35em;
-  top: 0.25em;
+  width: 28em;
+  margin: 1em;
+  /*top: 0.25em;*/
 }
 
 .bigCircle-content {
-  -webkit-hyphens: none;
-      -ms-hyphens: none;
-          hyphens: none;
-  margin: 5em;
   text-align: center;
 }
 
@@ -142,7 +138,6 @@ img.animated-gif{
   .bigCircle-content {
     height: 100%;
     margin: 0;
-    padding: 0.4em;
   }
 
   .bigCircle::before,
@@ -312,7 +307,7 @@ button:hover{
 
 /* Modal Content */
 .modal-content {
-  overflow: hidden;
+  overflow: scroll;
   background-color: #fefefe;
   margin-left: 0;
   padding: 20px;
@@ -350,12 +345,12 @@ button:hover{
 @media (max-width: 600px) {
 
   .title {
-    font-size: 12px;
+    font-size: 3em;
     line-height: 1.1;
   }
 
   .copy {
-    font-size: 10.5px;
+    font-size: 1em;
     line-height: 1.2;
 
   }
@@ -366,6 +361,11 @@ button:hover{
     line-height: 1.3;
   }
 
+  .circle {
+    width: 8.25em;
+    height: 8.25em;
+  }
+
 
   .fontawesome {
     margin-top: 5px;
@@ -373,12 +373,17 @@ button:hover{
 
   .container {
     font-size: 2.75vw;
-    margin-top: 0;
+    margin-top: -3em;
+    margin-bottom: 0;
   }
-  .header,
-  .footer {
+
+
+/* Header vertical
+
+  .header {
     flex-direction: column;
   }
+
   .header {
    background-color:#FFCDBB;
    position: relative;
@@ -405,8 +410,7 @@ button:hover{
 
   .logo {
     margin-top: 15px;
-    margin-left: 12px;
-    max-width: 250px;
+    max-width: 10em;
     height: auto;
   }
 
@@ -414,6 +418,43 @@ button:hover{
     max-width: 120px;
     height: auto;
   }
+
+  */
+
+  .header {
+    flex-direction: row;
+  }
+
+  .header {
+   background-color:#FFCDBB;
+   position: relative;
+   padding: 0.8em 1.2em;
+   height: 100%;
+  }
+
+  .header-left {
+    display: flex;
+    margin: auto;
+  }
+
+  .header-right {
+    display: flex;
+  }
+
+  .logo {
+    max-width: 9em;
+    height: auto;
+  }
+
+  img.animated-gif{
+    max-width: 5em;
+    height: auto;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
   .footer {
     position: relative;
     display: block;
