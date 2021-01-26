@@ -444,7 +444,7 @@ button:hover{
 
   .logo {
     max-width: 9em;
-    height: auto;
+    max-height: 4em;
   }
 
   img.animated-gif{
