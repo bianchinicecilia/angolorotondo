@@ -441,6 +441,7 @@ button:hover{
 
   .header-right {
     display: flex;
+    max-height: 5em;
   }
 
   .logo {
