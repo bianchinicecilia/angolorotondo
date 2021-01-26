@@ -430,7 +430,7 @@ button:hover{
    background-color:#FFCDBB;
    position: relative;
    padding: 0.8em 1.2em;
-   height: 100%;
+   max-height: 4em;
   }
 
   .header-left {
@@ -444,7 +444,7 @@ button:hover{
 
   .logo {
     max-width: 9em;
-    max-height: 4em;
+    height: auto;
   }
 
   img.animated-gif{
